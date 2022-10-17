@@ -1,4 +1,6 @@
 
+
+#ejercicio para mostrar numeros del 1 al 100 en orden descendente
 num= 0
 lista=[]
 
