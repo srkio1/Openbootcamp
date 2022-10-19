@@ -28,3 +28,8 @@ archivo2 = open("archivo2.txt", "a", encoding="utf-8")
 a=str(dic)
 archivo2.write(a+"\n")
 archivo2.close()
+
+archivo2=open("archivo2.txt", "r", encoding="utf-8")
+datos= archivo2.read()
+archivo2.close()
+print(datos)
